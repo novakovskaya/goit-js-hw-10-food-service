@@ -1,0 +1,31 @@
+{
+  "name": "goit-js-hw-10-food-service",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://novakovskaya.github.io/goit-js-hw-10-food-service",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novakovskaya/goit-js-hw-10-food-service.git"
+  },
+  "keywords": [],
+  "author": "Yulia Novakovskaya <yulya.novakovskaya95@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/novakovskaya/goit-js-hw-10-food-service/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.7",
+    "handlebars-loader": "^1.7.1"
+  }
+}
